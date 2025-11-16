@@ -12,4 +12,5 @@ fun main() {
 
     // Печать с тремя знаками после запятой
     println(String.format("%.3f", result))
+    
 }
