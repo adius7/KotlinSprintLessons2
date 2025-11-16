@@ -11,8 +11,7 @@ fun main() {
 
     // Вывод года, часа и минуты взлета
     println(year)
-    println(hour)
-    println(minute)
+    print("%02d:%02d".format(hour, minute))
 
     // Изменяем значения на время посадки
     hour = 10
